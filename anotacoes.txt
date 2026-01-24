@@ -1,0 +1,26 @@
+--------------------------------------------
+Capítulo 26 Aula 02 – Versão mobile first da tela de login
+--------------------------------------------
+
+* box-sizing: `border-box` -> faz com que a borda de um elemento textual seja criada automaticamente de acordo com as configuracoes de largura
+
+* RELEMBRANDO: Existem diversas formas de se centralizar uma div verticalmente e horizonta;mente caso `caixa` esteja configurada a altura e a largura pra ser responsiva a 100% da tela. Mas a forma tradicional é:
+
+ 1- colocar a position da caixa pai em : relative
+
+ 2- colocar a posição da caixa filha em absoluta.
+
+ 3- definir na caixa filha top e left em 50%
+
+ 4- definir a transação da div para o centro da tela, para isso os dois valores devem ser configurados em -50%.
+    
+     EX: transform: translate(-50%, -50%)
+
+* overflow: hidden -> coloca tudo o que está passando para fora da caixa dentro dela forçadamente.
+   -aplica-se na classe pai.
+
+* background-position -> define qual parte da imagem de fundo fique aparecendo, caso a caixa que ele foi definida for menor que a imagem, recebe dois valores (ex: left bottom).
+
+* box-shadow: 0px 0px 10px black; -> tem os dois primeiros valos que definem os lados que vão ter o deslocamento da sombra. (Nesse caso nenhum lado). tem 10 de espalhamento e a cor foi configurada em black.
+  - necessário definir a transparencia para não ficar muito forte a sombra (geralmente a mais ou menos pela metade).
+
