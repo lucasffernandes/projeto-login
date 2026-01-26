@@ -24,3 +24,15 @@ Capítulo 26 Aula 02 – Versão mobile first da tela de login
 * box-shadow: 0px 0px 10px black; -> tem os dois primeiros valos que definem os lados que vão ter o deslocamento da sombra. (Nesse caso nenhum lado). tem 10 de espalhamento e a cor foi configurada em black.
   - necessário definir a transparencia para não ficar muito forte a sombra (geralmente a mais ou menos pela metade).
 
+--------------------------------------------
+Capítulo 26 Aula 03 – Outras Media Queries para o projeto
+--------------------------------------------
+
+* como na metodologia de desenvolvimento mobile-first é desenvolvido toda estrutura do site visando smartphones, todo o resto da configuração de media-Queries é feito somente as configurações que vao ser para telas diferentes. é colocado somente o código adicional, não é necessário refazer o código todo.
+
+* para inverter de lugar duas divs , basta utilizar a propriedade css 'float:' com o valor 'left' ou 'right' para esquerda/direita,
+   - lembrando que as duas caixas devem estar definidas em 'display: block'.
+
+* transition: é usado para dar animação na imagem de fundo de acordo com que ela vai sendo adaptada com a mudança de tela.
+
+  - 'transition-timing-function: ease': faz com que essa animação ganhe uma suavisada para se tornar mais perceptível.
