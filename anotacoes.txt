@@ -36,3 +36,9 @@ Capítulo 26 Aula 03 – Outras Media Queries para o projeto
 * transition: é usado para dar animação na imagem de fundo de acordo com que ela vai sendo adaptada com a mudança de tela.
 
   - 'transition-timing-function: ease': faz com que essa animação ganhe uma suavisada para se tornar mais perceptível.
+
+--------------------------------------------
+Capítulo 26 Aula 04 – Criando o formulário de login
+--------------------------------------------
+
+* 
