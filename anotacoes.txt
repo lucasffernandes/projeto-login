@@ -41,4 +41,16 @@ Capítulo 26 Aula 03 – Outras Media Queries para o projeto
 Capítulo 26 Aula 04 – Criando o formulário de login
 --------------------------------------------
 
-* 
+* Em formulários, a configuração AUTOCOMPLETE serve além de ajudar em completar o que vai ser escrito ele ajudar tambem a validar se o que está sendo escrito está dentro de um padrão de email ou nome, ou o que quer que recebe no seu valor.
+  
+   - vai dentro do input desejado. 
+
+   - Para ele funcionar nos inputs O AUTOCOMPLETE deve estar ligado (on), na tag principal (form).
+
+   - current-password é um valor melhor para se colocar no atributo 'Autocomplete' para fazer um melhor auxilio no preenchimento de senha do usuário.
+
+* 'required' é um atributo que quando é adicionado em um input de formulário o torna obrigatório para preenchimento.
+
+* 'maxlength=30' torna um input de no maximo 30 caracteres.
+
+* Da mesma forma, existe o 'minlength=8, que define a entrada mínima de caracteres em um input
