@@ -54,3 +54,21 @@ Capítulo 26 Aula 04 – Criando o formulário de login
 * 'maxlength=30' torna um input de no maximo 30 caracteres.
 
 * Da mesma forma, existe o 'minlength=8, que define a entrada mínima de caracteres em um input
+
+--------------------------------------------
+Capítulo 26 Aula 05 – Aplicando estilo ao formulário de login
+--------------------------------------------
+
+* Para criar um seletor css exclusivo para um botão submit(enviar), que fica dentro de um form fica assim o caminho do seletor desta forma:
+
+ form > input(type=submit) {
+   ...
+ }
+
+ * Para criar um seletor que "pega" um link que está dentro de uma classe botão dentro de um form ficaria assim o caminho: 
+
+ form > a.botao {
+   ...
+ }
+
+ 
