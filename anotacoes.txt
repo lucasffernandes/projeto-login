@@ -72,3 +72,20 @@ Capítulo 26 Aula 05 – Aplicando estilo ao formulário de login
  }
 
  
+ --------------------------------------------
+Capítulo 26 Aula 06 – Finalizando projeto tela de login
+--------------------------------------------
+
+* É possível fazer calculos css com a função calc() como valor em uma propriedade css.
+     ex:    div {
+      width : calc(100% - 40px)
+     }
+
+* É possível utilizar o transform: translateY ()
+   - para transformar somente a posição y do elemento html
+
+*  input:focus-within { 
+}
+ - esse focus-within faz com que o input quando os dados forem inseridos ganhem foco.
+
+ PAREI NO TEMPO: 8.38 DO VIDEO
