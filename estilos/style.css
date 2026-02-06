@@ -29,7 +29,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
 
     background-color: white;
     width: 250PX;
@@ -40,6 +39,7 @@ section#login {
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
     
 }
 
@@ -94,7 +94,7 @@ div.campo > input {
 }
 
 div.campo > input:focus-within {
-    
+    background-color: white;
 }
 
 
